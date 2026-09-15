@@ -1,0 +1,19 @@
+# Environnement virtuel
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Secrets
+*.env
+!.env.example
+
+# Poids de modeles
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
